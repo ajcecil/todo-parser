@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "todo-parser"
-version = "0.0.1"
+dynamic = ["version"]
 requires-python = ">=3.6"
 authors = [
   {name = "Alex Cecil", email = "ajcecil@iastate.edu"},
